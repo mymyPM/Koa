@@ -2,7 +2,7 @@ const Koa = require('koa');
 const KoaRouter = require('koa-router');
 const json = require('koa-json');
 const colors = require('colors');
-const banner = require("./cmd/serverd/banner/banner");
+const banner = require("./serverd/banner/banner");
 
 const PORT = 3000;
 const app = new Koa();
@@ -13,7 +13,6 @@ banner.consoleLog();
 app.use(json());
 
 // Simple middleware example
-
 router.get('/home', ctx => (ctx.body = {Text: "Welcome to Koa"}));
 router.get('/test-context-object', ctx => {
     console.log(ctx.request)
