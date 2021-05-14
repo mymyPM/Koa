@@ -1,0 +1,31 @@
+{
+  "name": "node-koa",
+  "version": "1.0.0",
+  "description": "Basic nodejs and koajs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mymyPM/Koa.git"
+  },
+  "keywords": [
+    "Koa",
+    "Node"
+  ],
+  "author": "phanngocmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mymyPM/Koa/issues"
+  },
+  "homepage": "https://github.com/mymyPM/Koa#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "koa": "^2.13.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.0.0"
+  }
+}
